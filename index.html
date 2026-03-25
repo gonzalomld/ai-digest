@@ -130,12 +130,18 @@
     <div class="icon">📭</div>
     <p>No hay digest disponible para este día.</p>
   </div>
+
+  <footer style="margin-top: 60px; padding: 24px; text-align: center; border-top: 1px solid #E5E5E5; color: #999; font-size: 13px;">
+    Powered by Gonzalo M
+  </footer>
 </div>
 
 <script>
   // DIGEST INDEX — filled automatically by the daily task
   // Format: { "YYYY-MM-DD": "digests/YYYY-MM-DD.html" }
-  const DIGESTS = {};
+  const DIGESTS = {
+    "2026-03-25": "digests/2026-03-25.html"
+  };
 
   const MONTHS_ES = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
   let currentDate = new Date();
